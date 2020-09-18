@@ -19,7 +19,7 @@ You will use PWM to set on-off ratio of output signal to get different voltage. 
 
 ## <span style="color:#EA5823;font-weight:700">Circuit</span>
 
-![](../../.gitbook/assets/PWMBrightnessControl)
+![](../../.gitbook/assets/PWMBrightnessControl/pwm.png)
 
 Build the circuit as shown above.
 

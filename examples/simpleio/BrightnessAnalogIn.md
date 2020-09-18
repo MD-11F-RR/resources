@@ -19,7 +19,7 @@ PWM is a technology that obtains a very similar behavior from a digital output, 
 
 ## <span style="color:#EA5823;font-weight:700">Circuit</span>
 
-![](../../.gitbook/assets/BrightnessAnalogIn/03.png)
+![](../../.gitbook/assets/BrightnessAnalogIn/02.png)
 
 ## <span style="color:#EA5823;font-weight:700">Code</span>
 
