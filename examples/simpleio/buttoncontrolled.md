@@ -1,20 +1,28 @@
 # Button-controled LED
 
-![](../../.gitbook/assets/ButtoncontrolLED/buttoncontrolLED.gif)
+![](https://gblobscdn.gitbook.com/assets%2F-MGOJWkptBbZ3bq0TpEw%2Fsync%2F7a31caa67b4783d87958a9eccb7d36f763b7b287.gif?alt=media)
 
-In this example, we will use a push-button to control the LED. 
+In this example, we will use a push-button to control the LED.
 
 The input signal will change as you press the button. Thus, you can set LED status according to different input states.
 
 ## What you need
 
-- SwiftIO board
-- button
-- wires
+* SwiftIO board
+* Button
+* Jumper wires
+
+#### Kits that meet the experimental conditions: <a id="kits-that-meet-the-experimental-conditions"></a>
+
+* ​[Maker Kit for SwiftIO](https://www.madmachine.io/product-page/maker-kit-for-swiftio)​
 
 ## Circuit
 
+<<<<<<< HEAD
 ![](../../.gitbook/assets/ButtoncontrolLED/ButtoncontrolLED_bb.png)
+=======
+![](../../.gitbook/assets/ButtoncontrolLED/ButtoncontrolLED.png)
+>>>>>>> 7bae31b20d3d376f9b3f177cbedec9d0dc45ac92
 
 There is an onboard RGB LED. Please apply **low** voltage to light it.
 
@@ -29,7 +37,7 @@ So please be sure you connected the button in a right way.
 
 ## Code
 
-You can find the example code at the bottom left corner of IDE: ![](../../.gitbook/assets/xnip2020-07-22_16-04-33.jpg) &gt; SimpleIO &gt; ButtoncontrolLED.
+Here comes the code. You can find the example code at the bottom left corner of IDE: ![](../../.gitbook/assets/xnip2020-07-22_16-04-33.jpg) &gt; SimpleIO &gt; ButtoncontrolLED.
 
 ```swift
 // Read the input signal controlled by a button to turn on and off the LED.
@@ -77,6 +85,10 @@ If you have the experience with Arduino, you may notice there's no pull-down res
 Try to make the button a switch for the LED light?
 
 ---
+Last Edit 2020/09/15 by Martin
+
+> Conflict resolved, picture changed on circuit
+
 Last Edit 2020/09/13 by Martin
 
 > Language fixes
@@ -85,4 +97,14 @@ Last Edit 2020/09/13 by Martin
 
 Last revision 2020/09/12 by Johnson
 
+## Instruction
+
+The `.read()` method reads the value from a digital input pin. It will return the input value, represented as `true` or `false`.
+
+`if` statement checks the return value. If it's true, turn on the LED.
+
+## See Also
+
+* [Id](https://swiftioapi.madmachine.io/Enums/Id.html) - Enumerations of all the pins on the board.
+* [DigitalIn](https://swiftioapi.madmachine.io/Classes/DigitalIn.html) - Detect the state of a digital input pin. The input value is either true \(1\) or false \(0\).
 
