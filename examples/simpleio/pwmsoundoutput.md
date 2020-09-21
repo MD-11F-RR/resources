@@ -1,21 +1,22 @@
-# PWMSoundOutput
+# <span style="color:#EA5823;font-weight:800">PWMSoundOutput</span>
 
-![](../../.gitbook/assets/PWM.gif)
+![](../../.gitbook/assets/PWMSoundOutput/PWM.gif)
 
 This example shows how to use the `PWMOut` to generate notes. It plays three tones repeatedly.
 
-## What you need
+## <span style="color:#EA5823;font-weight:700">What you need</span>
 
-* SwiftIO board
-* Jumper wires
-* Buzzer
-* SwiftIO shield \(optional\)
+- SwiftIO board
+- Jumper wires
+- Buzzer
+- SwiftIO shield(optional)
 
-## Circuit
+## <span style="color:#EA5823;font-weight:700">Circuit</span>
 
-![](../../.gitbook/assets/PWMSoundOutput%20%281%29.png)
+![](../../.gitbook/assets/PWMSoundOutput/PWMSoundOutput.png)
 
-## Code
+
+## <span style="color:#EA5823;font-weight:700">Code</span>
 
 ```swift
 // Produce different notes by changing the frequency of PWM signal.
@@ -37,21 +38,24 @@ while true {
         // Play each note for one second.
         sleep(ms: 1000)
     }
-
+    
 }
 ```
 
-## Instruction
+## <span style="color:#EA5823;font-weight:700">Instruction</span>
 
-The code above uses a Frequency as musical pitches. For example, NOTE\_C4 is middle C, whose frequency is 262 Hz. Latter example MidiPlayer we will markdown all this musical note in a file. This file contains all the pitch values for typical notes. You may find it useful whenever you want to make musical notes.
+The code above uses a Frequency as musical pitches. For example, NOTE_C4 is middle C, whose frequency is 262 Hz. Latter example MidiPlayer we will markdown all this muscial note in a file. This file contains all the pitch values for typical notes. You may find it useful whenever you want to make musical notes.
 
-## See Also
+## <span style="color:#EA5823;font-weight:700">See Also</span>
 
-* [PWMOut](https://swiftioapi.madmachine.io/Classes/PWMOut.html) - The PWMOut class is used to change the time of high voltage during one period to simulate different output. 
+- [PWMOut](https://swiftioapi.madmachine.io/Classes/PWMOut.html) - The PWMOut class is used to vary the output voltage
 
-## References
+## <span style="color:#EA5823;font-weight:700">References</span>
 
-* [Frequency and Pitch](http://www.vias.org/crowhurstba/crowhurst_basic_audio_vol1_006.html)
-* [Online Tone Generator](https://www.szynalski.com/tone-generator/)
-* [wiki: Pitch \(music\)](https://en.wikipedia.org/wiki/Pitch_%28music%29)
+- [Frequency and Pitch](http://www.vias.org/crowhurstba/crowhurst_basic_audio_vol1_006.html)
+- [Online Tone Generator](https://www.szynalski.com/tone-generator/)
+- [wiki: Pitch (music)](https://en.wikipedia.org/wiki/Pitch_(music))
 
+
+---
+Last revision 2020/09/10 by Johnson
