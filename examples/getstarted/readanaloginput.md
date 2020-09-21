@@ -34,7 +34,7 @@ Different potentiometer may vary, so please refer to its manual before building 
 
 ## <span style="color:#EA5823;font-weight:700">Code</span>
 
-You can find the example code at the bottom left corner of IDE: ![](../../.gitbook/assets/xnip2020-07-22_16-04-33.jpg) &gt; GettingStarted &gt; ReadAnalogInput.
+You can find the example code at the bottom left corner of IDE: ![](../../.gitbook/assets/ReadAnalogInput/ReadAnalogInput.png) &gt; GettingStarted &gt; ReadAnalogInput.
 Well, you may try to read from to other modules, like sensors. It's quite interesting.
 
 For the code, we will use the `AnalogIn` class.

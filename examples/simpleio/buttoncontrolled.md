@@ -14,7 +14,7 @@ The input signal will change as you press the button. Thus, you can set LED stat
 
 ## Circuit
 
-![](../../.gitbook/assets/ButtoncontrolLED/ButtoncontrolLED_bb.png)
+![](../../.gitbook/assets/ButtoncontrolLED/ButtoncontrolLED.png)
 
 There is an onboard RGB LED. Please apply **low** voltage to light it.
 

@@ -12,7 +12,7 @@ When we use a push button as a toggle switch, it often generates some flickering
 
 ## <span style="color:#EA5823;font-weight:700">Circuit</span>
 
-![](../../.gitbook/assets/Debounce/../ButtoncontrolLED/ButtoncontrolLED_bb.png)
+![](../../.gitbook/assets/Debounce/../ButtoncontrolLED/ButtoncontrolLED.png)
 
 ## <span style="color:#EA5823;font-weight:700">Code</span>
 
